@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software, please cite the repository release and the
+  accompanying preprint. https://arxiv.org/abs/2606.29139
+title: "How Token Influence Decays with Distance: A Green-Function View of Trained Language Models"
+type: software
+authors:
+  - family-names: "Brändel"
+    given-names: "Matthias"
+  - family-names: "Köhler"
+    given-names: "Stephan"
+  - family-names: "Rheinbach"
+    given-names: "Oliver"
+version: "1.0.0"
+date-released: "2026-07-13"
+license: "BSD-3-Clause"
+repository-code: "https://github.com/"
+url: "https://arxiv.org/abs/2606.29139"
+abstract: >-
+  Minimal reference implementation for measuring distance-resolved Jacobian
+  sensitivities of next-token logits with respect to earlier input-token
+  embeddings, together with decay-model fitting and representative Pythia and
+  Qwen experiment configurations.
+keywords:
+  - language models
+  - transformers
+  - automatic differentiation
+  - Jacobian sensitivity
+  - Green function
+  - power-law decay
+  - hierarchical models

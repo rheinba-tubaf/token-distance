@@ -1,0 +1,45 @@
+Environment used for the reported Transformer experiments
+
+System
+------
+Python: 3.13.7
+Operating system: Linux 6.17.0-40-generic, x86_64
+Compiler reported by Python: GCC 15.2.0
+
+Python packages
+---------------
+PyTorch: 2.12.1+cu130
+Transformers: 5.12.1
+Datasets: 5.0.0
+Hugging Face Hub: 1.20.1
+NumPy: 2.5.0
+SciPy: 1.18.0
+Pandas: 3.0.3
+Matplotlib: 3.11.0
+tqdm: 4.68.3
+
+CUDA and hardware
+-----------------
+CUDA runtime used by PyTorch: 13.0
+cuDNN: 9.20.0
+GPU: NVIDIA GeForce RTX 5090
+GPU memory: 32 GB
+Compute capability: 12.0
+
+Numerical configuration
+-----------------------
+Default PyTorch floating-point dtype: torch.float32
+PyTorch float32 matrix-multiplication precision: highest
+PyTorch deterministic algorithms: disabled
+
+Checkpoint parameter dtypes at runtime
+--------------------------------------
+EleutherAI/pythia-14m-deduped: torch.float16
+EleutherAI/pythia-70m-deduped: torch.float16
+EleutherAI/pythia-160m-deduped: torch.float16
+EleutherAI/pythia-410m-deduped: torch.float16
+Qwen/Qwen2.5-0.5B: torch.bfloat16
+
+Floating-point model buffers were stored as torch.float32.
+The models were loaded without an explicit dtype override and without an
+automatic mixed-precision context.
